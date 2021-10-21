@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("https://web.archive.org/web/20091027023331/http://hk.geocities.com/spacestationhk/bg.gif");
+}
+img {
+    max-width: 100%;
+}
+
+h1 {
+    color:white;
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+
+}
+h2 {
+    color:white;
+    font-family: 'Orbitron', sans-serif;
+}
+p {
+    color:white;
+    font-family: 'Orbitron', sans-serif;
+}
+.mars {
+    display: block;
+    position: absolute;
+    right: 100px;
+}
+.phobos {
+    display: block;
+    position: absolute;
+    height: 150px;
+    width: 150rpx;
+    
+}
+.deimos{
+    display: block;
+    position: absolute;
+    bottom: 250px;
+    right:750px;
+    height: 150px;
+    width: 150px;
+}
+.rotating-mars {
+    display: block;
+    position: fixed;
+    right:1rem;
+
+}
+.ufo {
+    text-align: center;
+}
+.red-spaceship {
+    display: block;
+    position: absolute;
+    bottom: 3em;
+}
