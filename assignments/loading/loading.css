@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+    
+.container {
+	width: 200px;
+	height: 100px;
+	padding-top: 100px;
+	margin: 0 auto;
+}
+
+.box {
+    background-color:#1727ae;
+    width: 50px;
+	height: 50px;
+	margin: 10px auto;
+
+    animation-name: loading-screen;
+    animation-duration: 3s;
+    animation-iteration-count:10;
+    animation-fill-mode: forwards;
+}
+
+
+
+@keyframes loading-screen {
+    0% {
+        transform: rotateZ(30deg) rotateX(0deg) rotateY(0deg);
+        transform: scale(0,2);
+
+    }
+    50% {
+        transform: rotateZ(50deg) rotateX(0deg) rotateY(0deg);
+        transform: scaleZ(3,2);
+    }
+
+    100% {
+        transform: rotateZ(100deg) rotateX(0deg) rotateY(0deg);
+        transform: scale(5,2);
+    }
+
+
+
+}
