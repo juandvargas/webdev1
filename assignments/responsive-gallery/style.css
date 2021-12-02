@@ -61,3 +61,25 @@ nav a {
     max-width: 100%;
   }
 
+  .gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: .5em;
+  }
+  
+  .gallery img {
+    width: 100%;
+  }
+  
+  @media (max-width: 768px) {
+    
+    .gallery {
+      grid-template-columns: 1fr;
+    }
+  }
+  
+  @media (max-width: 1050px) {
+    .gallery {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
