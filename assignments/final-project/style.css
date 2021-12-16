@@ -34,10 +34,12 @@ p {
     padding: 20px;
     margin: 20px;
     font-size:1.2em;
+    font-family: 'Roboto', sans-serif;
 }
 h2 {
     padding: 10px;
     margin: 10px;
+    font-family: 'Bakbak One', cursive;
 }
 .navbar {
     background-color: black;
@@ -83,6 +85,7 @@ h2 {
 .nav-logo {
     font-size: 35px;
     font-weight: 500;
+    font-family: 'Bakbak One', cursive;
     color: white;
 }
 
